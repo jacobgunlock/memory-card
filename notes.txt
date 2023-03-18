@@ -1,0 +1,9 @@
+Have 25 pics
+
+lvl1 - 5pics
+lvl2 - 10pics
+...
+lvl5 - 25pics
+
+for each level randomly pick photos from assets
+

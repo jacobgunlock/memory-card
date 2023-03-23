@@ -1,12 +1,12 @@
 import React from "react";
-import { photoArray, getRandomItems } from "./util/photos";
+import "../styles/card.css";
 
-function Card(props) {
+function Cards(props) {
   return (
-    <div style={{display: 'flex'}}>
+    <div className="container" onClick={(e) => props.handleClick(e)}>
       {props.pool.map((item, i) => {
         return (
-          <div key={i}>
+          <div className="card" id={item.name} key={i}>
             <img src={item.photo} alt="" />
             <p>{item.name}</p>
           </div>
@@ -16,4 +16,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default Cards;

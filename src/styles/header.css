@@ -1,0 +1,28 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  color: white;
+  padding: 10px;
+  font-family: 'Bangers', cursive;
+}
+
+.header>h1 {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.header>.score {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.score>p {
+  margin: 0;
+}
